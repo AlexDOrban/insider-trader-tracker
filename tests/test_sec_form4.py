@@ -1,5 +1,6 @@
+import pytest
 from pathlib import Path
-from sources.sec_form4 import parse_atom, parse_form4
+from sources.sec_form4 import parse_atom, parse_form4, _ua_headers
 
 
 ATOM = (Path(__file__).parent / "fixtures" / "form4_atom.xml").read_bytes()
@@ -43,3 +44,9 @@ def test_parse_form4_p_code_is_buy():
                     filing_index_url=EXPECTED_INDEX_URL)
     assert f.action == "BUY"
     assert f.raw_url == EXPECTED_INDEX_URL
+
+
+def test_ua_headers_raises_when_env_var_missing(monkeypatch):
+    monkeypatch.delenv("SEC_USER_AGENT", raising=False)
+    with pytest.raises(RuntimeError, match="SEC_USER_AGENT"):
+        _ua_headers()

@@ -105,7 +105,12 @@ def parse_form4(xml_bytes: bytes, accession: str, filed_at: str, filing_index_ur
 
 
 def _ua_headers() -> dict:
-    ua = os.environ.get("SEC_USER_AGENT", "Insider Tracker contact@example.com")
+    ua = os.environ.get("SEC_USER_AGENT")
+    if not ua:
+        raise RuntimeError(
+            "SEC_USER_AGENT environment variable is not set. "
+            "Set it to '<Your Name> <your@email.com>' as required by EDGAR."
+        )
     return {"User-Agent": ua, "Accept": "application/atom+xml,application/xml,text/xml"}
 
 

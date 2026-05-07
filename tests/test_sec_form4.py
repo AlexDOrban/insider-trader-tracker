@@ -9,11 +9,21 @@ FILING = (Path(__file__).parent / "fixtures" / "form4_filing.xml").read_bytes()
 
 def test_parse_atom_extracts_filing_index_url_and_accession():
     entries = parse_atom(ATOM)
-    assert len(entries) == 1
+    # 2 Form 4 entries (one "4 - ...", one "4/A - ...") — 424B2 entry filtered out
+    assert len(entries) == 2
     e = entries[0]
     assert e["accession"] == "0001045810-26-000123"
     assert e["filing_index_url"].endswith("0001045810-26-000123-index.htm")
     assert e["updated"].startswith("2026-05-07T")
+
+
+def test_parse_atom_filters_non_form4_titles():
+    entries = parse_atom(ATOM)
+    accessions = {e["accession"] for e in entries}
+    # 424B2 prospectus must be excluded
+    assert "0001918704-26-012458" not in accessions
+    # 4/A amendment must be included
+    assert "0001111111-26-999999" in accessions
 
 
 EXPECTED_INDEX_URL = "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000123/0001045810-26-000123-index.htm"

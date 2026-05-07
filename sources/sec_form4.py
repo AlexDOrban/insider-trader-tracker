@@ -20,6 +20,9 @@ def parse_atom(atom_bytes: bytes) -> list[dict]:
     root = etree.fromstring(atom_bytes)
     out: list[dict] = []
     for entry in root.findall("a:entry", ATOM_NS):
+        title = (entry.findtext("a:title", default="", namespaces=ATOM_NS) or "").strip()
+        if not (title.startswith("4 - ") or title.startswith("4/A - ")):
+            continue
         eid = entry.findtext("a:id", default="", namespaces=ATOM_NS)
         m = re.search(r"accession-number=([\d-]+)", eid)
         if not m:
@@ -120,6 +123,9 @@ def _find_primary_xml_url(index_url: str, http_get=requests.get) -> str | None:
     for m in re.finditer(r'href="([^"]+\.xml)"', resp.text):
         href = m.group(1)
         if "FilingSummary" in href:
+            continue
+        # Skip XSL-rendered HTML versions (under /xsl* subdirectories)
+        if "/xsl" in href.lower():
             continue
         if href.startswith("/"):
             return f"https://www.sec.gov{href}"

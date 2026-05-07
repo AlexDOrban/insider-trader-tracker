@@ -1,0 +1,51 @@
+name: poll
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: poll
+  cancel-in-progress: false
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Run poll
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+          MIN_CONGRESS: "50000"
+          MIN_FORM4: "500000"
+          INCLUDE_LOWER_INSIDERS: "0"
+          DASHBOARD_URL: "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
+        run: python main.py
+
+      - name: Commit state and dashboard
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add seen.json errors.json data/filings.json docs/index.html docs/data.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(poll): $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          else
+            echo "no changes"
+          fi

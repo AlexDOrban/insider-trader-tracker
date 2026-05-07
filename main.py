@@ -114,6 +114,7 @@ def run(
         out_data=out_data,
         min_congress=min_congress,
         min_form4=min_form4,
+        include_lower_insiders=include_lower_insiders,
     )
 
 

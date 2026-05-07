@@ -6,15 +6,20 @@ from pathlib import Path
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from sources.filing import Filing, filing_to_dict
+from tracker.threshold import CSUITE_ROLES
 
 
 def _effective_value(f: Filing) -> float:
     return f.value_exact if f.value_exact is not None else (f.value_low or 0.0)
 
 
-def _is_big(f: Filing, min_congress: float, min_form4: float) -> bool:
+def _is_big(f: Filing, min_congress: float, min_form4: float, include_lower_insiders: bool = False) -> bool:
     if f.source == "form4":
-        return (f.value_exact or 0.0) >= min_form4
+        if (f.value_exact or 0.0) < min_form4:
+            return False
+        if not include_lower_insiders and f.person_role not in CSUITE_ROLES:
+            return False
+        return True
     return (f.value_low or 0.0) >= min_congress
 
 
@@ -26,10 +31,10 @@ def _fmt_money(n: float) -> str:
     return f"${n:,.0f}"
 
 
-def compute_stats(filings: list[Filing], today: str, min_congress: float, min_form4: float) -> dict:
+def compute_stats(filings: list[Filing], today: str, min_congress: float, min_form4: float, include_lower_insiders: bool = False) -> dict:
     big_today = [
         f for f in filings
-        if f.filed_at.startswith(today) and _is_big(f, min_congress, min_form4)
+        if f.filed_at.startswith(today) and _is_big(f, min_congress, min_form4, include_lower_insiders)
     ]
     volume = sum(_effective_value(f) for f in big_today)
     top_ticker_counter = Counter(f.ticker for f in big_today if f.ticker)
@@ -55,6 +60,7 @@ def render_dashboard(
     out_data: Path,
     min_congress: float,
     min_form4: float,
+    include_lower_insiders: bool = False,
 ) -> None:
     env = Environment(
         loader=FileSystemLoader(str(template_dir)),
@@ -62,7 +68,7 @@ def render_dashboard(
     )
     tpl = env.get_template("dashboard.html.j2")
     today = last_poll[:10]
-    stats = compute_stats(filings, today=today, min_congress=min_congress, min_form4=min_form4)
+    stats = compute_stats(filings, today=today, min_congress=min_congress, min_form4=min_form4, include_lower_insiders=include_lower_insiders)
     data = [filing_to_dict(f) for f in filings]
     json_blob = json.dumps(data).replace("</script>", "<\\/script>")
     html = tpl.render(

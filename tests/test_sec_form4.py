@@ -15,9 +15,13 @@ def test_parse_atom_extracts_filing_index_url_and_accession():
     assert e["updated"].startswith("2026-05-07T")
 
 
+EXPECTED_INDEX_URL = "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000123/0001045810-26-000123-index.htm"
+
+
 def test_parse_form4_returns_filing_with_csuite_role():
     f = parse_form4(FILING, accession="0001045810-26-000123",
-                    filed_at="2026-05-07T11:48:00-04:00")
+                    filed_at="2026-05-07T11:48:00-04:00",
+                    filing_index_url=EXPECTED_INDEX_URL)
     assert f is not None
     assert f.source == "form4"
     assert f.person == "Huang Jensen"
@@ -29,10 +33,13 @@ def test_parse_form4_returns_filing_with_csuite_role():
     assert f.price_per_share == 124.0
     assert f.value_exact == 100000.0 * 124.0
     assert f.id == "form4:0001045810-26-000123:0"
+    assert f.raw_url == EXPECTED_INDEX_URL
 
 
 def test_parse_form4_p_code_is_buy():
     bytes_in = FILING.replace(b"<transactionCode>S</transactionCode>",
                               b"<transactionCode>P</transactionCode>")
-    f = parse_form4(bytes_in, accession="x", filed_at="2026-05-07T00:00:00+00:00")
+    f = parse_form4(bytes_in, accession="x", filed_at="2026-05-07T00:00:00+00:00",
+                    filing_index_url=EXPECTED_INDEX_URL)
     assert f.action == "BUY"
+    assert f.raw_url == EXPECTED_INDEX_URL

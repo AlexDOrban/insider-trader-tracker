@@ -59,7 +59,7 @@ def _normalize_role(officer_title: str, is_director: bool, is_ten_percent: bool)
     return t or "Insider"
 
 
-def parse_form4(xml_bytes: bytes, accession: str, filed_at: str) -> Filing | None:
+def parse_form4(xml_bytes: bytes, accession: str, filed_at: str, filing_index_url: str = "") -> Filing | None:
     root = etree.fromstring(xml_bytes)
     issuer_name = (root.findtext(".//issuer/issuerName") or "").strip()
     ticker = (root.findtext(".//issuer/issuerTradingSymbol") or "").strip() or None
@@ -100,7 +100,7 @@ def parse_form4(xml_bytes: bytes, accession: str, filed_at: str) -> Filing | Non
         value_low=None,
         value_high=None,
         value_exact=value_exact,
-        raw_url=f"https://www.sec.gov/Archives/edgar/data/{accession.replace('-', '')}-index.htm",
+        raw_url=filing_index_url,
     )
 
 
@@ -134,7 +134,7 @@ def fetch(http_get=requests.get) -> list[Filing]:
         try:
             r = http_get(xml_url, headers=_ua_headers(), timeout=30)
             r.raise_for_status()
-            f = parse_form4(r.content, accession=e["accession"], filed_at=e["updated"])
+            f = parse_form4(r.content, accession=e["accession"], filed_at=e["updated"], filing_index_url=e["filing_index_url"])
         except Exception:
             continue
         if f is not None:

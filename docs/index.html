@@ -22,7 +22,7 @@
   <header class="flex flex-col gap-2 sm:flex-row sm:justify-between sm:items-center px-3 sm:px-5 py-3 sm:py-4 border-b border-[#30363d] bg-[#161b22]">
     <div class="flex flex-wrap gap-2 sm:gap-4 items-center">
       <strong class="text-base">Insider Tracker</strong>
-      <span class="text-[11px] sm:text-xs text-[#7d8590]">Last poll: <span id="lastPoll">2026-05-07T19:04:22.027320+00:00</span></span>
+      <span class="text-[11px] sm:text-xs text-[#7d8590]">Last poll: <span id="lastPoll">2026-05-07T19:06:04.127450+00:00</span></span>
     </div>
     <div class="flex flex-wrap gap-2 items-center">
       <span class="text-[11px] sm:text-xs text-[#7d8590]">Threshold:</span>
@@ -147,6 +147,7 @@ function render() {
   document.getElementById("hiddenLabel").textContent =
     showSmall ? ("Showing all " + rows.length + " filings") : ("+ " + smallRows.length + " smaller filings hidden");
   document.getElementById("showAll").textContent = showSmall ? "Hide smaller" : "Show all";
+  document.getElementById("toggleSmall").textContent = showSmall ? "Show larger" : "Show smaller";
 }
 
 document.querySelectorAll(".srcFilter").forEach(e => e.addEventListener("change", render));

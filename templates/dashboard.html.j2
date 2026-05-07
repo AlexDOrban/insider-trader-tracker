@@ -147,6 +147,7 @@ function render() {
   document.getElementById("hiddenLabel").textContent =
     showSmall ? ("Showing all " + rows.length + " filings") : ("+ " + smallRows.length + " smaller filings hidden");
   document.getElementById("showAll").textContent = showSmall ? "Hide smaller" : "Show all";
+  document.getElementById("toggleSmall").textContent = showSmall ? "Show larger" : "Show smaller";
 }
 
 document.querySelectorAll(".srcFilter").forEach(e => e.addEventListener("change", render));

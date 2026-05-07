@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FinancialDisclosure>
+  <Member>
+    <Last>Pelosi</Last>
+    <First>Nancy</First>
+    <FilingType>P</FilingType>
+    <StateDst>CA12</StateDst>
+    <Year>2026</Year>
+    <FilingDate>5/7/2026</FilingDate>
+    <DocID>20260507</DocID>
+  </Member>
+  <Member>
+    <Last>Crenshaw</Last>
+    <First>Daniel</First>
+    <FilingType>P</FilingType>
+    <StateDst>TX02</StateDst>
+    <Year>2026</Year>
+    <FilingDate>5/7/2026</FilingDate>
+    <DocID>20260508</DocID>
+  </Member>
+  <Member>
+    <Last>Smith</Last>
+    <First>John</First>
+    <FilingType>A</FilingType>
+    <StateDst>NY01</StateDst>
+    <Year>2026</Year>
+    <FilingDate>5/7/2026</FilingDate>
+    <DocID>20260509</DocID>
+  </Member>
+</FinancialDisclosure>

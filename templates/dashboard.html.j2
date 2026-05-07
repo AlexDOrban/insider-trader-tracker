@@ -1,0 +1,154 @@
+{# templates/dashboard.html.j2 #}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Insider Tracker</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { background:#0d1117; color:#e6edf3; font-family:system-ui,sans-serif; }
+  .row-big { background: rgba(46,160,67,0.06); }
+  .buy { color:#3fb950; }
+  .sell { color:#f85149; }
+</style>
+</head>
+<body class="min-h-screen">
+  <header class="flex justify-between items-center px-5 py-4 border-b border-[#30363d] bg-[#161b22]">
+    <div class="flex gap-4 items-center">
+      <strong>Insider Tracker</strong>
+      <span class="text-xs text-[#7d8590]">Last poll: <span id="lastPoll">{{ last_poll }}</span></span>
+    </div>
+    <div class="flex gap-2 items-center">
+      <span class="text-xs text-[#7d8590]">Threshold:</span>
+      <span class="bg-[#1f6feb] text-white px-2 py-1 rounded-full text-[11px] font-semibold">BIG TRADES ONLY</span>
+      <button id="toggleSmall" class="bg-[#21262d] border border-[#30363d] text-[#e6edf3] px-2 py-1 rounded text-[11px]">Show smaller</button>
+    </div>
+  </header>
+
+  <section class="grid grid-cols-4 gap-px bg-[#30363d]">
+    <div class="bg-[#0d1117] p-4"><div class="text-[10px] text-[#7d8590] uppercase">Big trades today</div><div class="text-xl font-semibold mt-1" id="statBig">{{ stats.big_today }}</div></div>
+    <div class="bg-[#0d1117] p-4"><div class="text-[10px] text-[#7d8590] uppercase">Total $ volume</div><div class="text-xl font-semibold mt-1" id="statVol">{{ stats.volume }}</div></div>
+    <div class="bg-[#0d1117] p-4"><div class="text-[10px] text-[#7d8590] uppercase">Top ticker</div><div class="text-xl font-semibold mt-1" id="statTicker">{{ stats.top_ticker }}</div></div>
+    <div class="bg-[#0d1117] p-4"><div class="text-[10px] text-[#7d8590] uppercase">Top buyer</div><div class="text-sm font-semibold mt-2" id="statBuyer">{{ stats.top_buyer }}</div></div>
+  </section>
+
+  <section class="grid grid-cols-[200px_1fr]">
+    <aside class="bg-[#161b22] p-4 border-r border-[#30363d] text-xs space-y-3">
+      <div>
+        <div class="text-[10px] uppercase text-[#7d8590] mb-1">Source</div>
+        <label class="block"><input type="checkbox" class="srcFilter" value="house" checked> House PTR</label>
+        <label class="block"><input type="checkbox" class="srcFilter" value="senate" checked> Senate PTR</label>
+        <label class="block"><input type="checkbox" class="srcFilter" value="form4" checked> SEC Form 4</label>
+      </div>
+      <div>
+        <div class="text-[10px] uppercase text-[#7d8590] mb-1">Min size (USD)</div>
+        <select id="minSize" class="w-full bg-[#0d1117] border border-[#30363d] text-[#e6edf3] p-1 rounded">
+          <option value="0">All</option>
+          <option value="50000" selected>$50k+</option>
+          <option value="500000">$500k+</option>
+          <option value="1000000">$1M+</option>
+        </select>
+      </div>
+      <div>
+        <div class="text-[10px] uppercase text-[#7d8590] mb-1">Ticker</div>
+        <input id="tickerFilter" class="w-full bg-[#0d1117] border border-[#30363d] text-[#e6edf3] p-1 rounded" placeholder="NVDA, TSLA">
+      </div>
+      <div>
+        <div class="text-[10px] uppercase text-[#7d8590] mb-1">Person</div>
+        <input id="personFilter" class="w-full bg-[#0d1117] border border-[#30363d] text-[#e6edf3] p-1 rounded" placeholder="search name">
+      </div>
+    </aside>
+
+    <div>
+      <table class="w-full text-sm border-collapse">
+        <thead>
+          <tr class="bg-[#161b22] text-[10px] uppercase text-[#7d8590]">
+            <th class="text-left px-3 py-2">Filed</th>
+            <th class="text-left px-3 py-2">Source</th>
+            <th class="text-left px-3 py-2">Person</th>
+            <th class="text-left px-3 py-2">Ticker</th>
+            <th class="text-left px-3 py-2">Action</th>
+            <th class="text-right px-3 py-2">Size</th>
+          </tr>
+        </thead>
+        <tbody id="rows"></tbody>
+      </table>
+      <div id="hiddenNote" class="px-4 py-3 border-t border-[#21262d] bg-[#0a0d12] text-xs text-[#7d8590] flex justify-between items-center">
+        <span id="hiddenLabel"></span>
+        <button id="showAll" class="bg-[#21262d] border border-[#30363d] text-[#e6edf3] px-2 py-1 rounded text-[11px]">Show all</button>
+      </div>
+    </div>
+  </section>
+
+<script id="filings-data" type="application/json">{{ filings_json|safe }}</script>
+<script>
+const FILINGS = JSON.parse(document.getElementById("filings-data").textContent);
+const SOURCE_LABEL = { house: "House", senate: "Senate", form4: "Form 4" };
+let showSmall = false;
+
+function fmtMoney(n) { return n == null ? "-" : "$" + Math.round(n).toLocaleString(); }
+function rangeLabel(f) {
+  if (f.value_exact != null) return fmtMoney(f.value_exact);
+  if (f.value_low != null && f.value_high != null) return fmtMoney(f.value_low) + "-" + fmtMoney(f.value_high);
+  return "-";
+}
+function effectiveValue(f) {
+  return f.value_exact != null ? f.value_exact : (f.value_low != null ? f.value_low : 0);
+}
+
+function makeCell(text, cls) {
+  const td = document.createElement("td");
+  td.className = cls;
+  td.textContent = text;
+  return td;
+}
+
+function makeRow(f, isBig) {
+  const tr = document.createElement("tr");
+  tr.className = (isBig ? "row-big " : "") + "border-t border-[#21262d]";
+  tr.appendChild(makeCell(f.filed_at.slice(11, 16), "px-3 py-2"));
+  tr.appendChild(makeCell(SOURCE_LABEL[f.source] || f.source, "px-3 py-2"));
+  tr.appendChild(makeCell(f.person, "px-3 py-2"));
+  const tickerTd = document.createElement("td");
+  tickerTd.className = "px-3 py-2";
+  const strong = document.createElement("strong");
+  strong.textContent = f.ticker || "-";
+  tickerTd.appendChild(strong);
+  tr.appendChild(tickerTd);
+  const actionCls = (f.action === "BUY" || f.action === "OPTION_BUY") ? "buy" : "sell";
+  tr.appendChild(makeCell(f.action, "px-3 py-2 " + actionCls));
+  tr.appendChild(makeCell(rangeLabel(f), "px-3 py-2 text-right"));
+  return tr;
+}
+
+function render() {
+  const minSize = parseFloat(document.getElementById("minSize").value);
+  const ticker = document.getElementById("tickerFilter").value.trim().toUpperCase();
+  const person = document.getElementById("personFilter").value.trim().toLowerCase();
+  const srcs = new Set(Array.from(document.querySelectorAll(".srcFilter:checked")).map(e => e.value));
+  let rows = FILINGS.filter(f => srcs.has(f.source));
+  if (ticker) rows = rows.filter(f => (f.ticker || "").toUpperCase().includes(ticker));
+  if (person) rows = rows.filter(f => (f.person || "").toLowerCase().includes(person));
+  const bigRows = rows.filter(f => effectiveValue(f) >= minSize);
+  const smallRows = rows.filter(f => effectiveValue(f) < minSize);
+  const visible = showSmall ? rows : bigRows;
+  const tbody = document.getElementById("rows");
+  while (tbody.firstChild) tbody.removeChild(tbody.firstChild);
+  for (const f of visible) {
+    tbody.appendChild(makeRow(f, effectiveValue(f) >= minSize));
+  }
+  document.getElementById("hiddenLabel").textContent =
+    showSmall ? ("Showing all " + rows.length + " filings") : ("+ " + smallRows.length + " smaller filings hidden");
+  document.getElementById("showAll").textContent = showSmall ? "Hide smaller" : "Show all";
+}
+
+document.querySelectorAll(".srcFilter").forEach(e => e.addEventListener("change", render));
+["minSize", "tickerFilter", "personFilter"].forEach(id =>
+  document.getElementById(id).addEventListener("input", render));
+document.getElementById("showAll").addEventListener("click", () => { showSmall = !showSmall; render(); });
+document.getElementById("toggleSmall").addEventListener("click", () => { showSmall = !showSmall; render(); });
+render();
+</script>
+</body>
+</html>

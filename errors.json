@@ -1,1 +1,14 @@
-{}
+{
+  "form4": {
+    "alerted": false,
+    "consecutive_failures": 0
+  },
+  "house": {
+    "alerted": false,
+    "consecutive_failures": 0
+  },
+  "senate": {
+    "alerted": false,
+    "consecutive_failures": 1
+  }
+}

@@ -19,6 +19,7 @@ CODE_TO_ACTION = {
 def parse_atom(atom_bytes: bytes) -> list[dict]:
     root = etree.fromstring(atom_bytes)
     out: list[dict] = []
+    seen_accessions: set[str] = set()
     for entry in root.findall("a:entry", ATOM_NS):
         title = (entry.findtext("a:title", default="", namespaces=ATOM_NS) or "").strip()
         if not (title.startswith("4 - ") or title.startswith("4/A - ")):
@@ -28,6 +29,12 @@ def parse_atom(atom_bytes: bytes) -> list[dict]:
         if not m:
             continue
         accession = m.group(1)
+        # Each Form 4 appears twice in the atom feed: once under the reporter CIK
+        # and once under the issuer CIK. Same accession, same filing — keep only
+        # the first occurrence.
+        if accession in seen_accessions:
+            continue
+        seen_accessions.add(accession)
         index_url = ""
         for link in entry.findall("a:link", ATOM_NS):
             href = link.get("href", "")

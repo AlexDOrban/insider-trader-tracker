@@ -26,6 +26,15 @@ def test_parse_atom_filters_non_form4_titles():
     assert "0001111111-26-999999" in accessions
 
 
+def test_parse_atom_dedupes_same_accession():
+    # SEC atom feed lists each Form 4 twice — once under reporter CIK and once
+    # under issuer CIK with the same accession number. parse_atom must keep
+    # only the first occurrence.
+    entries = parse_atom(ATOM)
+    accessions = [e["accession"] for e in entries]
+    assert accessions.count("0001045810-26-000123") == 1
+
+
 EXPECTED_INDEX_URL = "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000123/0001045810-26-000123-index.htm"
 
 

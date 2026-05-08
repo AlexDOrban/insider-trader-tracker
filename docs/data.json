@@ -656,22 +656,6 @@
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034413.pdf"
   },
   {
-    "id": "house:20033947:0",
-    "source": "house",
-    "filed_at": "2026-02-06T00:00:00+00:00",
-    "person": "Virginia Foxx",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033947.pdf"
-  },
-  {
     "id": "house:20034095:0",
     "source": "house",
     "filed_at": "2026-03-02T00:00:00+00:00",
@@ -960,22 +944,6 @@
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034327.pdf"
   },
   {
-    "id": "house:20033946:0",
-    "source": "house",
-    "filed_at": "2026-02-06T00:00:00+00:00",
-    "person": "William R. Keating",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033946.pdf"
-  },
-  {
     "id": "house:20034068:0",
     "source": "house",
     "filed_at": "2026-02-26T00:00:00+00:00",
@@ -1070,22 +1038,6 @@
     "value_high": null,
     "value_exact": null,
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034302.pdf"
-  },
-  {
-    "id": "house:8221322:0",
-    "source": "house",
-    "filed_at": "2026-02-06T00:00:00+00:00",
-    "person": "Rohit Khanna",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/8221322.pdf"
   },
   {
     "id": "house:8221358:0",
@@ -2462,5 +2414,53 @@
     "value_high": null,
     "value_exact": null,
     "raw_url": "https://www.sec.gov/Archives/edgar/data/1656600/000165660026000002/0001656600-26-000002-index.htm"
+  },
+  {
+    "id": "form4:0001437749-26-015782:0",
+    "source": "form4",
+    "filed_at": "2026-05-08T10:08:54-04:00",
+    "person": "Vitale Michael",
+    "person_role": "EVP, Head of Comm Banking",
+    "ticker": "RBKB",
+    "company": "Rhinebeck Bancorp, Inc.",
+    "action": "BUY",
+    "shares": 9000.0,
+    "price_per_share": null,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": null,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/2130297/000143774926015782/0001437749-26-015782-index.htm"
+  },
+  {
+    "id": "form4:0001437749-26-015781:0",
+    "source": "form4",
+    "filed_at": "2026-05-08T10:06:23-04:00",
+    "person": "Snow John Ingalls III",
+    "person_role": "Director",
+    "ticker": "WSBK",
+    "company": "Winchester Bancorp, Inc./MD/",
+    "action": "BUY",
+    "shares": 1525.0,
+    "price_per_share": 12.79,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": 19504.75,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/2066224/000143774926015781/0001437749-26-015781-index.htm"
+  },
+  {
+    "id": "form4:0001185611-26-000002:0",
+    "source": "form4",
+    "filed_at": "2026-05-08T10:00:04-04:00",
+    "person": "BANGERT STEVEN",
+    "person_role": "Director",
+    "ticker": "BOKF",
+    "company": "BOK FINANCIAL CORP",
+    "action": "SELL",
+    "shares": 2100.0,
+    "price_per_share": 134.78,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": 283038.0,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/1185611/000118561126000002/0001185611-26-000002-index.htm"
   }
 ]

@@ -16,22 +16,6 @@
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034201.pdf"
   },
   {
-    "id": "house:20033945:0",
-    "source": "house",
-    "filed_at": "2026-02-17T00:00:00+00:00",
-    "person": "Richard W. Allen",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033945.pdf"
-  },
-  {
     "id": "house:20034133:0",
     "source": "house",
     "filed_at": "2026-03-11T00:00:00+00:00",
@@ -94,22 +78,6 @@
     "value_high": null,
     "value_exact": null,
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034085.pdf"
-  },
-  {
-    "id": "house:20034013:0",
-    "source": "house",
-    "filed_at": "2026-02-17T00:00:00+00:00",
-    "person": "Sheri Biggs",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034013.pdf"
   },
   {
     "id": "house:20034195:0",
@@ -688,22 +656,6 @@
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034305.pdf"
   },
   {
-    "id": "house:20033944:0",
-    "source": "house",
-    "filed_at": "2026-02-17T00:00:00+00:00",
-    "person": "Michael Patrick Guest",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033944.pdf"
-  },
-  {
     "id": "house:20034012:0",
     "source": "house",
     "filed_at": "2026-02-18T00:00:00+00:00",
@@ -1118,22 +1070,6 @@
     "value_high": null,
     "value_exact": null,
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033648.pdf"
-  },
-  {
-    "id": "house:20034016:0",
-    "source": "house",
-    "filed_at": "2026-02-17T00:00:00+00:00",
-    "person": "Daniel Meuser",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034016.pdf"
   },
   {
     "id": "house:20034158:0",
@@ -5806,5 +5742,53 @@
     "value_high": null,
     "value_exact": 20500.0,
     "raw_url": "https://www.sec.gov/Archives/edgar/data/1367859/000123599826000004/0001235998-26-000004-index.htm"
+  },
+  {
+    "id": "form4:0001193125-26-230035:0",
+    "source": "form4",
+    "filed_at": "2026-05-19T11:53:45-04:00",
+    "person": "Bem Karrie M.",
+    "person_role": "EVP, Gen Counsel & Corp Sec",
+    "ticker": "WWD",
+    "company": "Woodward, Inc.",
+    "action": "SELL",
+    "shares": 185.0,
+    "price_per_share": 352.48,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": 65208.8,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/2037528/000119312526230035/0001193125-26-230035-index.htm"
+  },
+  {
+    "id": "form4:0001083786-26-000010:0",
+    "source": "form4",
+    "filed_at": "2026-05-19T11:47:33-04:00",
+    "person": "COLLAWN PATRICIA K",
+    "person_role": "Director",
+    "ticker": "TXNM",
+    "company": "TXNM ENERGY INC",
+    "action": "BUY",
+    "shares": 691.0,
+    "price_per_share": null,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": null,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/1108426/000108378626000010/0001083786-26-000010-index.htm"
+  },
+  {
+    "id": "form4:0000310354-26-000028:0",
+    "source": "form4",
+    "filed_at": "2026-05-19T11:39:00-04:00",
+    "person": "Rangel Danielle",
+    "person_role": "VP & Chief Accounting Officer",
+    "ticker": "SXI",
+    "company": "STANDEX INTERNATIONAL CORP/DE/",
+    "action": "BUY",
+    "shares": 603.0,
+    "price_per_share": null,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": null,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/2067172/000031035426000028/0000310354-26-000028-index.htm"
   }
 ]

@@ -7614,5 +7614,37 @@
     "value_high": null,
     "value_exact": null,
     "raw_url": "https://www.sec.gov/Archives/edgar/data/1910479/000090514826002642/0000905148-26-002642-index.htm"
+  },
+  {
+    "id": "house:20034622:0",
+    "source": "house",
+    "filed_at": "2026-05-22T00:00:00+00:00",
+    "person": "Jake Auchincloss",
+    "person_role": "Representative",
+    "ticker": null,
+    "company": "",
+    "action": "BUY",
+    "shares": null,
+    "price_per_share": null,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": null,
+    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034622.pdf"
+  },
+  {
+    "id": "house:20034616:0",
+    "source": "house",
+    "filed_at": "2026-05-22T00:00:00+00:00",
+    "person": "Thomas H. Kean",
+    "person_role": "Representative",
+    "ticker": null,
+    "company": "",
+    "action": "BUY",
+    "shares": null,
+    "price_per_share": null,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": null,
+    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034616.pdf"
   }
 ]

@@ -1040,22 +1040,6 @@
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034424.pdf"
   },
   {
-    "id": "house:20034056:0",
-    "source": "house",
-    "filed_at": "2026-02-25T00:00:00+00:00",
-    "person": "Kelly Louise Morrison",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034056.pdf"
-  },
-  {
     "id": "house:20034082:0",
     "source": "house",
     "filed_at": "2026-03-02T00:00:00+00:00",
@@ -1182,22 +1166,6 @@
     "value_high": null,
     "value_exact": null,
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034274.pdf"
-  },
-  {
-    "id": "house:20034010:0",
-    "source": "house",
-    "filed_at": "2026-02-25T00:00:00+00:00",
-    "person": "Scott H. Peters",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034010.pdf"
   },
   {
     "id": "house:20034178:0",
@@ -8094,5 +8062,37 @@
     "value_high": null,
     "value_exact": 288201.0,
     "raw_url": "https://www.sec.gov/Archives/edgar/data/2057190/000093583626000300/0000935836-26-000300-index.htm"
+  },
+  {
+    "id": "form4:0000851520-26-000076:0",
+    "source": "form4",
+    "filed_at": "2026-05-27T12:02:20-04:00",
+    "person": "James Bradley A",
+    "person_role": "President",
+    "ticker": "EXPO",
+    "company": "EXPONENT INC",
+    "action": "SELL",
+    "shares": 2000.0,
+    "price_per_share": 57.465,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": 114930.0,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/1799709/000085152026000076/0000851520-26-000076-index.htm"
+  },
+  {
+    "id": "form4:0000912562-26-000122:0",
+    "source": "form4",
+    "filed_at": "2026-05-27T12:00:36-04:00",
+    "person": "Bosway William T",
+    "person_role": "CEO",
+    "ticker": "ROCK",
+    "company": "GIBRALTAR INDUSTRIES, INC.",
+    "action": "BUY",
+    "shares": 19735.0,
+    "price_per_share": 37.4377,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": 738833.0095,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/1675953/000091256226000122/0000912562-26-000122-index.htm"
   }
 ]

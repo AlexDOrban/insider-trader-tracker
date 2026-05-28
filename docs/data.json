@@ -528,22 +528,6 @@
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034355.pdf"
   },
   {
-    "id": "house:20033930:0",
-    "source": "house",
-    "filed_at": "2026-02-26T00:00:00+00:00",
-    "person": "Josh Gottheimer",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033930.pdf"
-  },
-  {
     "id": "house:20034130:0",
     "source": "house",
     "filed_at": "2026-03-16T00:00:00+00:00",
@@ -702,22 +686,6 @@
     "value_high": null,
     "value_exact": null,
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034327.pdf"
-  },
-  {
-    "id": "house:20034068:0",
-    "source": "house",
-    "filed_at": "2026-02-26T00:00:00+00:00",
-    "person": "William R. Keating",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034068.pdf"
   },
   {
     "id": "house:20034177:0",

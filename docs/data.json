@@ -160,22 +160,6 @@
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034285.pdf"
   },
   {
-    "id": "house:20034119:0",
-    "source": "house",
-    "filed_at": "2026-03-05T00:00:00+00:00",
-    "person": "Steve Cohen",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034119.pdf"
-  },
-  {
     "id": "house:20034167:0",
     "source": "house",
     "filed_at": "2026-03-26T00:00:00+00:00",
@@ -302,22 +286,6 @@
     "value_high": null,
     "value_exact": null,
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034416.pdf"
-  },
-  {
-    "id": "house:20034132:0",
-    "source": "house",
-    "filed_at": "2026-03-05T00:00:00+00:00",
-    "person": "Lloyd Doggett",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034132.pdf"
   },
   {
     "id": "house:20034292:0",
@@ -958,22 +926,6 @@
     "value_high": null,
     "value_exact": null,
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034424.pdf"
-  },
-  {
-    "id": "house:20034123:0",
-    "source": "house",
-    "filed_at": "2026-03-05T00:00:00+00:00",
-    "person": "Kelly Louise Morrison",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034123.pdf"
   },
   {
     "id": "house:20034156:0",
@@ -10382,5 +10334,69 @@
     "value_high": null,
     "value_exact": 2756.0620999999996,
     "raw_url": "https://www.sec.gov/Archives/edgar/data/1951059/000195105926000010/0001951059-26-000010-index.htm"
+  },
+  {
+    "id": "form4:0001628280-26-040663:0",
+    "source": "form4",
+    "filed_at": "2026-06-04T11:47:28-04:00",
+    "person": "Niew Jeffrey",
+    "person_role": "Director",
+    "ticker": "CVGI",
+    "company": "Commercial Vehicle Group, Inc.",
+    "action": "BUY",
+    "shares": 23483.0,
+    "price_per_share": null,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": null,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/1535760/000162828026040663/0001628280-26-040663-index.htm"
+  },
+  {
+    "id": "form4:0000007789-26-000157:0",
+    "source": "form4",
+    "filed_at": "2026-06-04T11:32:36-04:00",
+    "person": "Manso Julio",
+    "person_role": "EVP, CHRO",
+    "ticker": "ASB",
+    "company": "ASSOCIATED BANC-CORP",
+    "action": "EXCHANGE",
+    "shares": 1335.0,
+    "price_per_share": 27.59,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": 36832.65,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/2067282/000000778926000157/0000007789-26-000157-index.htm"
+  },
+  {
+    "id": "form4:0001419045-26-000016:0",
+    "source": "form4",
+    "filed_at": "2026-06-04T11:24:29-04:00",
+    "person": "LABELLE MICHAEL E",
+    "person_role": "CFO",
+    "ticker": "BXP",
+    "company": "BXP, Inc.",
+    "action": "BUY",
+    "shares": 23981.0,
+    "price_per_share": null,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": null,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/1419045/000141904526000016/0001419045-26-000016-index.htm"
+  },
+  {
+    "id": "form4:0001419045-26-000015:0",
+    "source": "form4",
+    "filed_at": "2026-06-04T11:24:23-04:00",
+    "person": "LABELLE MICHAEL E",
+    "person_role": "CFO",
+    "ticker": "N/A",
+    "company": "BOSTON PROPERTIES LTD PARTNERSHIP",
+    "action": "BUY",
+    "shares": 23981.0,
+    "price_per_share": null,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": null,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/1419045/000141904526000015/0001419045-26-000015-index.htm"
   }
 ]

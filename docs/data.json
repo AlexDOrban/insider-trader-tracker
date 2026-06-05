@@ -304,22 +304,6 @@
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034292.pdf"
   },
   {
-    "id": "house:20034134:0",
-    "source": "house",
-    "filed_at": "2026-03-06T00:00:00+00:00",
-    "person": "Byron Donalds",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034134.pdf"
-  },
-  {
     "id": "house:20034297:0",
     "source": "house",
     "filed_at": "2026-04-08T00:00:00+00:00",
@@ -494,22 +478,6 @@
     "value_high": null,
     "value_exact": null,
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034305.pdf"
-  },
-  {
-    "id": "house:20034128:0",
-    "source": "house",
-    "filed_at": "2026-03-06T00:00:00+00:00",
-    "person": "Kevin Hern",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034128.pdf"
   },
   {
     "id": "house:20034262:0",
@@ -1230,22 +1198,6 @@
     "value_high": null,
     "value_exact": null,
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034188.pdf"
-  },
-  {
-    "id": "house:20034138:0",
-    "source": "house",
-    "filed_at": "2026-03-06T00:00:00+00:00",
-    "person": "David J. Taylor",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034138.pdf"
   },
   {
     "id": "house:20034207:0",
@@ -10670,5 +10622,69 @@
     "value_high": null,
     "value_exact": null,
     "raw_url": "https://www.sec.gov/Archives/edgar/data/1737659/000119312526257935/0001193125-26-257935-index.htm"
+  },
+  {
+    "id": "form4:0001193125-26-258798:0",
+    "source": "form4",
+    "filed_at": "2026-06-05T11:30:33-04:00",
+    "person": "WILLIAMS ROBERT M JR",
+    "person_role": "10% owner",
+    "ticker": "AVAH",
+    "company": "Aveanna Healthcare Holdings, Inc.",
+    "action": "SELL",
+    "shares": 5842240.0,
+    "price_per_share": 6.24,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": 36455577.6,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/1832332/000119312526258798/0001193125-26-258798-index.htm"
+  },
+  {
+    "id": "form4:0001193125-26-258790:0",
+    "source": "form4",
+    "filed_at": "2026-06-05T11:27:51-04:00",
+    "person": "J.H. Whitney Equity Partners VII, LLC",
+    "person_role": "10% owner",
+    "ticker": "AVAH",
+    "company": "Aveanna Healthcare Holdings, Inc.",
+    "action": "SELL",
+    "shares": 5842240.0,
+    "price_per_share": 6.24,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": 36455577.6,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/1832332/000119312526258790/0001193125-26-258790-index.htm"
+  },
+  {
+    "id": "form4:0001193125-26-258782:0",
+    "source": "form4",
+    "filed_at": "2026-06-05T11:25:21-04:00",
+    "person": "Briggs Andrew J",
+    "person_role": "Director",
+    "ticker": "FMAO",
+    "company": "FARMERS & MERCHANTS BANCORP INC",
+    "action": "BUY",
+    "shares": 465.0,
+    "price_per_share": 27.14,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": 12620.1,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/1763764/000119312526258782/0001193125-26-258782-index.htm"
+  },
+  {
+    "id": "form4:0001475597-26-000055:0",
+    "source": "form4",
+    "filed_at": "2026-06-05T11:20:59-04:00",
+    "person": "HRT FINANCIAL LP",
+    "person_role": "10% owner",
+    "ticker": "VMAR",
+    "company": "Vision Marine Technologies Inc.",
+    "action": "BUY",
+    "shares": 124448.0,
+    "price_per_share": 0.433,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": 53885.984,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/1813783/000147559726000055/0001475597-26-000055-index.htm"
   }
 ]

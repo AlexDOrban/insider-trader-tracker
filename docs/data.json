@@ -192,22 +192,6 @@
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034223.pdf"
   },
   {
-    "id": "house:20034159:0",
-    "source": "house",
-    "filed_at": "2026-03-10T00:00:00+00:00",
-    "person": "April McClain Delaney",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034159.pdf"
-  },
-  {
     "id": "house:20034299:0",
     "source": "house",
     "filed_at": "2026-04-06T00:00:00+00:00",
@@ -704,22 +688,6 @@
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034106.pdf"
   },
   {
-    "id": "house:8221359:0",
-    "source": "house",
-    "filed_at": "2026-03-10T00:00:00+00:00",
-    "person": "Michael T. McCaul",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/8221359.pdf"
-  },
-  {
     "id": "house:9115728:0",
     "source": "house",
     "filed_at": "2026-04-08T00:00:00+00:00",
@@ -862,22 +830,6 @@
     "value_high": null,
     "value_exact": null,
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034424.pdf"
-  },
-  {
-    "id": "house:20034156:0",
-    "source": "house",
-    "filed_at": "2026-03-10T00:00:00+00:00",
-    "person": "Kelly Louise Morrison",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034156.pdf"
   },
   {
     "id": "house:20034213:0",
@@ -11470,5 +11422,37 @@
     "value_high": null,
     "value_exact": null,
     "raw_url": "https://www.sec.gov/Archives/edgar/data/1327688/000119312526262380/0001193125-26-262380-index.htm"
+  },
+  {
+    "id": "form4:0001523231-26-000001:0",
+    "source": "form4",
+    "filed_at": "2026-06-09T11:22:21-04:00",
+    "person": "Patel Sagar A",
+    "person_role": "Director",
+    "ticker": "KMT",
+    "company": "KENNAMETAL INC",
+    "action": "SELL",
+    "shares": 29498.608,
+    "price_per_share": 33.5,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": 988203.368,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/1523231/000152323126000001/0001523231-26-000001-index.htm"
+  },
+  {
+    "id": "form4:0001669850-26-000008:0",
+    "source": "form4",
+    "filed_at": "2026-06-09T11:18:32-04:00",
+    "person": "Long Jason E",
+    "person_role": "CFO",
+    "ticker": "CFFI",
+    "company": "C & F FINANCIAL CORP",
+    "action": "SELL",
+    "shares": 1360.0,
+    "price_per_share": 75.5,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": 102680.0,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/1669850/000166985026000008/0001669850-26-000008-index.htm"
   }
 ]

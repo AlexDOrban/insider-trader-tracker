@@ -16,22 +16,6 @@
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034201.pdf"
   },
   {
-    "id": "house:20034133:0",
-    "source": "house",
-    "filed_at": "2026-03-11T00:00:00+00:00",
-    "person": "Richard W. Allen",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034133.pdf"
-  },
-  {
     "id": "house:20034315:0",
     "source": "house",
     "filed_at": "2026-05-04T00:00:00+00:00",
@@ -11774,5 +11758,37 @@
     "value_high": null,
     "value_exact": null,
     "raw_url": "https://www.sec.gov/Archives/edgar/data/1737657/000119312526264423/0001193125-26-264423-index.htm"
+  },
+  {
+    "id": "form4:0001178780-26-000002:0",
+    "source": "form4",
+    "filed_at": "2026-06-10T12:00:08-04:00",
+    "person": "SUSKIND DENNIS A",
+    "person_role": "Director",
+    "ticker": "DCOM",
+    "company": "Dime Commercial Bancshares, Inc. /NY/",
+    "action": "SELL",
+    "shares": 5000.0,
+    "price_per_share": 38.75,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": 193750.0,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/1178780/000117878026000002/0001178780-26-000002-index.htm"
+  },
+  {
+    "id": "form4:0001437749-26-020112:0",
+    "source": "form4",
+    "filed_at": "2026-06-10T11:54:22-04:00",
+    "person": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+    "person_role": "10% owner",
+    "ticker": "RCG",
+    "company": "RENN Fund, Inc.",
+    "action": "BUY",
+    "shares": 756.0,
+    "price_per_share": 2.75,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": 2079.0,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/1056823/000143774926020112/0001437749-26-020112-index.htm"
   }
 ]

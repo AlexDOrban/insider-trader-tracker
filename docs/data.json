@@ -80,22 +80,6 @@
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034202.pdf"
   },
   {
-    "id": "house:20034176:0",
-    "source": "house",
-    "filed_at": "2026-03-14T00:00:00+00:00",
-    "person": "Ed Case",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034176.pdf"
-  },
-  {
     "id": "house:20034221:0",
     "source": "house",
     "filed_at": "2026-04-06T00:00:00+00:00",
@@ -384,22 +368,6 @@
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034355.pdf"
   },
   {
-    "id": "house:20034130:0",
-    "source": "house",
-    "filed_at": "2026-03-16T00:00:00+00:00",
-    "person": "Josh Gottheimer",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034130.pdf"
-  },
-  {
     "id": "house:20034305:0",
     "source": "house",
     "filed_at": "2026-04-08T00:00:00+00:00",
@@ -464,22 +432,6 @@
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034301.pdf"
   },
   {
-    "id": "house:20034160:0",
-    "source": "house",
-    "filed_at": "2026-03-15T00:00:00+00:00",
-    "person": "Pramila Jayapal",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034160.pdf"
-  },
-  {
     "id": "house:20034190:0",
     "source": "house",
     "filed_at": "2026-03-18T00:00:00+00:00",
@@ -510,22 +462,6 @@
     "value_high": null,
     "value_exact": null,
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034327.pdf"
-  },
-  {
-    "id": "house:20034177:0",
-    "source": "house",
-    "filed_at": "2026-03-16T00:00:00+00:00",
-    "person": "William R. Keating",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034177.pdf"
   },
   {
     "id": "house:20034307:0",
@@ -942,22 +878,6 @@
     "value_high": null,
     "value_exact": null,
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034384.pdf"
-  },
-  {
-    "id": "house:20034084:0",
-    "source": "house",
-    "filed_at": "2026-03-14T00:00:00+00:00",
-    "person": "Jefferson Shreve",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034084.pdf"
   },
   {
     "id": "house:20019182:0",
@@ -13118,5 +13038,37 @@
     "value_high": null,
     "value_exact": null,
     "raw_url": "https://www.sec.gov/Archives/edgar/data/1871750/000187175026000002/0001871750-26-000002-index.htm"
+  },
+  {
+    "id": "form4:0001493152-26-028646:0",
+    "source": "form4",
+    "filed_at": "2026-06-15T13:21:02-04:00",
+    "person": "Lekstrom Morgan Lee",
+    "person_role": "Director",
+    "ticker": "STEX",
+    "company": "Streamex Corp.",
+    "action": "BUY",
+    "shares": 25000.0,
+    "price_per_share": 1.01,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": 25250.0,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/2072014/000149315226028646/0001493152-26-028646-index.htm"
+  },
+  {
+    "id": "form4:0001200512-26-000014:0",
+    "source": "form4",
+    "filed_at": "2026-06-15T13:10:28-04:00",
+    "person": "CHERRY THOMAS F",
+    "person_role": "CEO",
+    "ticker": "CFFI",
+    "company": "C & F FINANCIAL CORP",
+    "action": "SELL",
+    "shares": 30.0,
+    "price_per_share": 78.5,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": 2355.0,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/1200512/000120051226000014/0001200512-26-000014-index.htm"
   }
 ]

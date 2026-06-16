@@ -240,22 +240,6 @@
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034297.pdf"
   },
   {
-    "id": "house:20034114:0",
-    "source": "house",
-    "filed_at": "2026-03-17T00:00:00+00:00",
-    "person": "Neal Patrick MD, Facs Dunn",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034114.pdf"
-  },
-  {
     "id": "house:20034379:0",
     "source": "house",
     "filed_at": "2026-04-20T00:00:00+00:00",
@@ -270,22 +254,6 @@
     "value_high": null,
     "value_exact": null,
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034379.pdf"
-  },
-  {
-    "id": "house:20034179:0",
-    "source": "house",
-    "filed_at": "2026-03-17T00:00:00+00:00",
-    "person": "Cleo Fields",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034179.pdf"
   },
   {
     "id": "house:20034295:0",
@@ -910,22 +878,6 @@
     "value_high": null,
     "value_exact": null,
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034345.pdf"
-  },
-  {
-    "id": "house:20034188:0",
-    "source": "house",
-    "filed_at": "2026-03-17T00:00:00+00:00",
-    "person": "Thomas Suozzi",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034188.pdf"
   },
   {
     "id": "house:20034207:0",
@@ -13438,5 +13390,21 @@
     "value_high": null,
     "value_exact": 1450640.0,
     "raw_url": "https://www.sec.gov/Archives/edgar/data/1514114/000151411426000010/0001514114-26-000010-index.htm"
+  },
+  {
+    "id": "form4:0000945621-26-000830:0",
+    "source": "form4",
+    "filed_at": "2026-06-16T13:07:56-04:00",
+    "person": "Nagpal Ankur",
+    "person_role": "Portfolio Manager",
+    "ticker": "N/A",
+    "company": "USVC Venture Capital Access Fund",
+    "action": "BUY",
+    "shares": 50.1,
+    "price_per_share": 19.96,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": 999.9960000000001,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/2126229/000094562126000830/0000945621-26-000830-index.htm"
   }
 ]

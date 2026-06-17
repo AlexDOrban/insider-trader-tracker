@@ -64,22 +64,6 @@
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034346.pdf"
   },
   {
-    "id": "house:20034202:0",
-    "source": "house",
-    "filed_at": "2026-03-18T00:00:00+00:00",
-    "person": "Rob Bresnahan",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034202.pdf"
-  },
-  {
     "id": "house:20034221:0",
     "source": "house",
     "filed_at": "2026-04-06T00:00:00+00:00",
@@ -400,22 +384,6 @@
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034301.pdf"
   },
   {
-    "id": "house:20034190:0",
-    "source": "house",
-    "filed_at": "2026-03-18T00:00:00+00:00",
-    "person": "Thomas H. Kean",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034190.pdf"
-  },
-  {
     "id": "house:20034327:0",
     "source": "house",
     "filed_at": "2026-04-13T00:00:00+00:00",
@@ -718,22 +686,6 @@
     "value_high": null,
     "value_exact": null,
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034274.pdf"
-  },
-  {
-    "id": "house:20034178:0",
-    "source": "house",
-    "filed_at": "2026-03-18T00:00:00+00:00",
-    "person": "Scott H. Peters",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034178.pdf"
   },
   {
     "id": "house:20034342:0",
@@ -13694,5 +13646,53 @@
     "value_high": null,
     "value_exact": 185810.88,
     "raw_url": "https://www.sec.gov/Archives/edgar/data/1519641/000089914026000651/0000899140-26-000651-index.htm"
+  },
+  {
+    "id": "form4:0001605077-26-000006:0",
+    "source": "form4",
+    "filed_at": "2026-06-17T12:05:46-04:00",
+    "person": "Cohen Michael Daniel",
+    "person_role": "Chief Legal Officer",
+    "ticker": "PLTK",
+    "company": "Playtika Holding Corp.",
+    "action": "EXCHANGE",
+    "shares": 16628.0,
+    "price_per_share": 3.37,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": 56036.36,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/1828016/000160507726000006/0001605077-26-000006-index.htm"
+  },
+  {
+    "id": "form4:0001437749-26-020895:0",
+    "source": "form4",
+    "filed_at": "2026-06-17T11:53:37-04:00",
+    "person": "CHEN JESSE",
+    "person_role": "Director",
+    "ticker": "AXTI",
+    "company": "AXT INC",
+    "action": "SELL",
+    "shares": 6172.0,
+    "price_per_share": 115.2437,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": 711284.1164,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/1268534/000143774926020895/0001437749-26-020895-index.htm"
+  },
+  {
+    "id": "form4:0001437749-26-020894:0",
+    "source": "form4",
+    "filed_at": "2026-06-17T11:52:53-04:00",
+    "person": "CHANG DAVID C",
+    "person_role": "Director",
+    "ticker": "AXTI",
+    "company": "AXT INC",
+    "action": "SELL",
+    "shares": 8333.0,
+    "price_per_share": 111.1715,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": 926392.1094999999,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/1188184/000143774926020894/0001437749-26-020894-index.htm"
   }
 ]

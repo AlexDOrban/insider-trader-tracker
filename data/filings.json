@@ -32,22 +32,6 @@
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034315.pdf"
   },
   {
-    "id": "house:20034195:0",
-    "source": "house",
-    "filed_at": "2026-03-21T00:00:00+00:00",
-    "person": "Sheri Biggs",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034195.pdf"
-  },
-  {
     "id": "house:20034346:0",
     "source": "house",
     "filed_at": "2026-04-16T00:00:00+00:00",
@@ -14638,5 +14622,37 @@
     "value_high": null,
     "value_exact": null,
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034783.pdf"
+  },
+  {
+    "id": "form4:0001274737-26-000038:0",
+    "source": "form4",
+    "filed_at": "2026-06-22T13:11:30-04:00",
+    "person": "McKhann Chas",
+    "person_role": "Director",
+    "ticker": "XGN",
+    "company": "EXAGEN INC.",
+    "action": "BUY",
+    "shares": 37500.0,
+    "price_per_share": null,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": null,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/1631746/000127473726000038/0001274737-26-000038-index.htm"
+  },
+  {
+    "id": "form4:0001782815-26-000007:0",
+    "source": "form4",
+    "filed_at": "2026-06-22T13:00:16-04:00",
+    "person": "Stokes Frank",
+    "person_role": "Director",
+    "ticker": "XGN",
+    "company": "EXAGEN INC.",
+    "action": "BUY",
+    "shares": 37500.0,
+    "price_per_share": null,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": null,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/1782815/000178281526000007/0001782815-26-000007-index.htm"
   }
 ]

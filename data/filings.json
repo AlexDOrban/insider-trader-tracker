@@ -112,22 +112,6 @@
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034368.pdf"
   },
   {
-    "id": "house:20034223:0",
-    "source": "house",
-    "filed_at": "2026-03-25T00:00:00+00:00",
-    "person": "Warren Davidson",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034223.pdf"
-  },
-  {
     "id": "house:20034299:0",
     "source": "house",
     "filed_at": "2026-04-06T00:00:00+00:00",
@@ -15438,5 +15422,53 @@
     "value_high": null,
     "value_exact": 766939.12,
     "raw_url": "https://www.sec.gov/Archives/edgar/data/2035200/000119312526279905/0001193125-26-279905-index.htm"
+  },
+  {
+    "id": "house:20034815:0",
+    "source": "house",
+    "filed_at": "2026-06-23T00:00:00+00:00",
+    "person": "Neal Patrick MD, Facs Dunn",
+    "person_role": "Representative",
+    "ticker": null,
+    "company": "",
+    "action": "BUY",
+    "shares": null,
+    "price_per_share": null,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": null,
+    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034815.pdf"
+  },
+  {
+    "id": "house:20034836:0",
+    "source": "house",
+    "filed_at": "2026-06-23T00:00:00+00:00",
+    "person": "Nancy Pelosi",
+    "person_role": "Representative",
+    "ticker": null,
+    "company": "",
+    "action": "BUY",
+    "shares": null,
+    "price_per_share": null,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": null,
+    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034836.pdf"
+  },
+  {
+    "id": "form4:0001214659-26-007677:0",
+    "source": "form4",
+    "filed_at": "2026-06-24T11:11:33-04:00",
+    "person": "Krop Julie",
+    "person_role": "Director",
+    "ticker": "AQST",
+    "company": "Aquestive Therapeutics, Inc.",
+    "action": "OPTION_BUY",
+    "shares": 25000.0,
+    "price_per_share": 0.7132,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": 17830.0,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/1643127/000121465926007677/0001214659-26-007677-index.htm"
   }
 ]

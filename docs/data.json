@@ -496,22 +496,6 @@
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034359.pdf"
   },
   {
-    "id": "house:20034247:0",
-    "source": "house",
-    "filed_at": "2026-03-30T00:00:00+00:00",
-    "person": "Max Miller",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034247.pdf"
-  },
-  {
     "id": "house:20034419:0",
     "source": "house",
     "filed_at": "2026-04-28T00:00:00+00:00",
@@ -574,22 +558,6 @@
     "value_high": null,
     "value_exact": null,
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034300.pdf"
-  },
-  {
-    "id": "house:20034129:0",
-    "source": "house",
-    "filed_at": "2026-03-30T00:00:00+00:00",
-    "person": "Jared Moskowitz",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034129.pdf"
   },
   {
     "id": "house:20034274:0",
@@ -16398,5 +16366,21 @@
     "value_high": null,
     "value_exact": 179250.0,
     "raw_url": "https://www.sec.gov/Archives/edgar/data/2114900/000211490026000009/0002114900-26-000009-index.htm"
+  },
+  {
+    "id": "form4:0001628280-26-045913:0",
+    "source": "form4",
+    "filed_at": "2026-06-29T11:59:27-04:00",
+    "person": "Herbert Kevin R.",
+    "person_role": "President",
+    "ticker": "NATR",
+    "company": "NATURES SUNSHINE PRODUCTS INC",
+    "action": "EXCHANGE",
+    "shares": 1976.0,
+    "price_per_share": 21.02,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": 41535.52,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/1984826/000162828026045913/0001628280-26-045913-index.htm"
   }
 ]

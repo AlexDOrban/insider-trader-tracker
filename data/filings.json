@@ -512,22 +512,6 @@
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034424.pdf"
   },
   {
-    "id": "house:20034213:0",
-    "source": "house",
-    "filed_at": "2026-04-02T00:00:00+00:00",
-    "person": "Kelly Louise Morrison",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034213.pdf"
-  },
-  {
     "id": "house:20034300:0",
     "source": "house",
     "filed_at": "2026-05-05T00:00:00+00:00",
@@ -670,22 +654,6 @@
     "value_high": null,
     "value_exact": null,
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034345.pdf"
-  },
-  {
-    "id": "house:20034280:0",
-    "source": "house",
-    "filed_at": "2026-04-02T00:00:00+00:00",
-    "person": "David J. Taylor",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034280.pdf"
   },
   {
     "id": "house:20034414:0",
@@ -17630,5 +17598,37 @@
     "value_high": null,
     "value_exact": 171000.0,
     "raw_url": "https://www.sec.gov/Archives/edgar/data/2116974/000211697426000003/0002116974-26-000003-index.htm"
+  },
+  {
+    "id": "form4:0001598917-26-000010:0",
+    "source": "form4",
+    "filed_at": "2026-07-02T10:29:34-04:00",
+    "person": "ADAMS BRADLEY S.",
+    "person_role": "CFO",
+    "ticker": "OSBC",
+    "company": "OLD SECOND BANCORP INC",
+    "action": "BUY",
+    "shares": 34.0,
+    "price_per_share": null,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": null,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/1598917/000159891726000010/0001598917-26-000010-index.htm"
+  },
+  {
+    "id": "form4:0000354963-26-000203:0",
+    "source": "form4",
+    "filed_at": "2026-07-02T10:27:49-04:00",
+    "person": "Koontz Richard L Jr",
+    "person_role": "Director",
+    "ticker": "SHEN",
+    "company": "SHENANDOAH TELECOMMUNICATIONS CO/VA/",
+    "action": "BUY",
+    "shares": 33.1565,
+    "price_per_share": 15.08,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": 500.00002,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/1361555/000035496326000203/0000354963-26-000203-index.htm"
   }
 ]

@@ -80,22 +80,6 @@
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034416.pdf"
   },
   {
-    "id": "house:20034297:0",
-    "source": "house",
-    "filed_at": "2026-04-08T00:00:00+00:00",
-    "person": "Byron Donalds",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034297.pdf"
-  },
-  {
     "id": "house:20034379:0",
     "source": "house",
     "filed_at": "2026-04-20T00:00:00+00:00",
@@ -160,22 +144,6 @@
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034355.pdf"
   },
   {
-    "id": "house:20034305:0",
-    "source": "house",
-    "filed_at": "2026-04-08T00:00:00+00:00",
-    "person": "Josh Gottheimer",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034305.pdf"
-  },
-  {
     "id": "house:20034461:0",
     "source": "house",
     "filed_at": "2026-05-05T00:00:00+00:00",
@@ -190,22 +158,6 @@
     "value_high": null,
     "value_exact": null,
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034461.pdf"
-  },
-  {
-    "id": "house:20034301:0",
-    "source": "house",
-    "filed_at": "2026-04-08T00:00:00+00:00",
-    "person": "Jonathan Jackson",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034301.pdf"
   },
   {
     "id": "house:20034327:0",
@@ -270,22 +222,6 @@
     "value_high": null,
     "value_exact": null,
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034401.pdf"
-  },
-  {
-    "id": "house:9115728:0",
-    "source": "house",
-    "filed_at": "2026-04-08T00:00:00+00:00",
-    "person": "Michael T. McCaul",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9115728.pdf"
   },
   {
     "id": "house:20034311:0",
@@ -19022,5 +18958,69 @@
     "value_high": null,
     "value_exact": 56369.32,
     "raw_url": "https://www.sec.gov/Archives/edgar/data/1678432/000160971126000078/0001609711-26-000078-index.htm"
+  },
+  {
+    "id": "form4:0001193125-26-298110:0",
+    "source": "form4",
+    "filed_at": "2026-07-08T10:29:49-04:00",
+    "person": "SWEENEY GERARD H",
+    "person_role": "CEO",
+    "ticker": "BDN",
+    "company": "BRANDYWINE REALTY TRUST",
+    "action": "EXCHANGE",
+    "shares": 1749.0,
+    "price_per_share": 3.17,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": 5544.33,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/944673/000119312526298110/0001193125-26-298110-index.htm"
+  },
+  {
+    "id": "form4:0001628280-26-047605:0",
+    "source": "form4",
+    "filed_at": "2026-07-08T10:27:45-04:00",
+    "person": "Moore James Dalton",
+    "person_role": "Director",
+    "ticker": "RMBI",
+    "company": "Richmond Mutual Bancorporation, Inc.",
+    "action": "BUY",
+    "shares": 60669.0,
+    "price_per_share": null,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": null,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/2144270/000162828026047605/0001628280-26-047605-index.htm"
+  },
+  {
+    "id": "form4:0001435109-26-000107:0",
+    "source": "form4",
+    "filed_at": "2026-07-08T10:02:49-04:00",
+    "person": "Booth Richard Whitaker",
+    "person_role": "Insider",
+    "ticker": "NONE",
+    "company": "Fundrise Real Estate Interval Fund, LLC",
+    "action": "BUY",
+    "shares": 40.8163,
+    "price_per_share": 12.25,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": 499.99967499999997,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/1845014/000143510926000107/0001435109-26-000107-index.htm"
+  },
+  {
+    "id": "form4:0001435109-26-000106:0",
+    "source": "form4",
+    "filed_at": "2026-07-08T09:48:24-04:00",
+    "person": "Hall Bjorn",
+    "person_role": "Secretary and CCO",
+    "ticker": "NONE",
+    "company": "Fundrise Income Real Estate Fund, LLC",
+    "action": "BUY",
+    "shares": 98.8142,
+    "price_per_share": 10.12,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": 999.999704,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/1885551/000143510926000106/0001435109-26-000106-index.htm"
   }
 ]

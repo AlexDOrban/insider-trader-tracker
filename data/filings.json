@@ -19870,5 +19870,53 @@
     "value_high": null,
     "value_exact": 1217.82,
     "raw_url": "https://www.sec.gov/Archives/edgar/data/1212502/000121465926008407/0001214659-26-008407-index.htm"
+  },
+  {
+    "id": "form4:0001472710-26-000002:0",
+    "source": "form4",
+    "filed_at": "2026-07-10T10:47:06-04:00",
+    "person": "Anquillare Mark V",
+    "person_role": "Director",
+    "ticker": "TBRG",
+    "company": "TruBridge, Inc.",
+    "action": "SELL",
+    "shares": 21554.0,
+    "price_per_share": 26.25,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": 565792.5,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/1472710/000147271026000002/0001472710-26-000002-index.htm"
+  },
+  {
+    "id": "form4:0001594511-26-000002:0",
+    "source": "form4",
+    "filed_at": "2026-07-10T10:45:54-04:00",
+    "person": "Benjamin Regina M.",
+    "person_role": "Director",
+    "ticker": "TBRG",
+    "company": "TruBridge, Inc.",
+    "action": "SELL",
+    "shares": 38687.0,
+    "price_per_share": 26.25,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": 1015533.75,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/1594511/000159451126000002/0001594511-26-000002-index.htm"
+  },
+  {
+    "id": "form4:0002057313-26-000002:0",
+    "source": "form4",
+    "filed_at": "2026-07-10T10:45:32-04:00",
+    "person": "Canada Jerry G Jr.",
+    "person_role": "Director",
+    "ticker": "TBRG",
+    "company": "TruBridge, Inc.",
+    "action": "SELL",
+    "shares": 4376.0,
+    "price_per_share": 26.25,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": 114870.0,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/2057313/000205731326000002/0002057313-26-000002-index.htm"
   }
 ]

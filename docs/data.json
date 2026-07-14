@@ -384,22 +384,6 @@
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20019182.pdf"
   },
   {
-    "id": "house:20034345:0",
-    "source": "house",
-    "filed_at": "2026-04-14T00:00:00+00:00",
-    "person": "Greg Steube",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034345.pdf"
-  },
-  {
     "id": "house:20034414:0",
     "source": "house",
     "filed_at": "2026-04-30T00:00:00+00:00",

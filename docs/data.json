@@ -16,22 +16,6 @@
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034315.pdf"
   },
   {
-    "id": "house:20034346:0",
-    "source": "house",
-    "filed_at": "2026-04-16T00:00:00+00:00",
-    "person": "Sheri Biggs",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034346.pdf"
-  },
-  {
     "id": "house:20034368:0",
     "source": "house",
     "filed_at": "2026-04-28T00:00:00+00:00",
@@ -174,22 +158,6 @@
     "value_high": null,
     "value_exact": null,
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034401.pdf"
-  },
-  {
-    "id": "house:20034311:0",
-    "source": "house",
-    "filed_at": "2026-04-16T00:00:00+00:00",
-    "person": "Jennifer McClellan",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034311.pdf"
   },
   {
     "id": "house:20034359:0",
@@ -21358,5 +21326,21 @@
     "value_high": null,
     "value_exact": 217571.97,
     "raw_url": "https://www.sec.gov/Archives/edgar/data/1839341/000090514826003271/0000905148-26-003271-index.htm"
+  },
+  {
+    "id": "form4:0001193125-26-305565:0",
+    "source": "form4",
+    "filed_at": "2026-07-16T10:06:20-04:00",
+    "person": "Buffington Mark",
+    "person_role": "CEO",
+    "ticker": "N/A",
+    "company": "BIP Ventures Evergreen BDC",
+    "action": "BUY",
+    "shares": 1445.0,
+    "price_per_share": 34.61,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": 50011.45,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/1987881/000119312526305565/0001193125-26-305565-index.htm"
   }
 ]

@@ -112,22 +112,6 @@
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034413.pdf"
   },
   {
-    "id": "house:20034355:0",
-    "source": "house",
-    "filed_at": "2026-04-17T00:00:00+00:00",
-    "person": "Laura Friedman",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034355.pdf"
-  },
-  {
     "id": "house:20034461:0",
     "source": "house",
     "filed_at": "2026-05-05T00:00:00+00:00",
@@ -21726,5 +21710,53 @@
     "value_high": null,
     "value_exact": null,
     "raw_url": "https://www.sec.gov/Archives/edgar/data/1974267/000161976226000083/0001619762-26-000083-index.htm"
+  },
+  {
+    "id": "form4:0001766116-26-000020:0",
+    "source": "form4",
+    "filed_at": "2026-07-17T10:00:08-04:00",
+    "person": "Cassens Michael David",
+    "person_role": "Director",
+    "ticker": "BUSE",
+    "company": "FIRST BUSEY CORP /NV/",
+    "action": "SELL",
+    "shares": 1441.0,
+    "price_per_share": 29.34,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": 42278.94,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/1766116/000176611626000020/0001766116-26-000020-index.htm"
+  },
+  {
+    "id": "form4:0001193125-26-307009:0",
+    "source": "form4",
+    "filed_at": "2026-07-17T09:52:52-04:00",
+    "person": "Knudsen Todd",
+    "person_role": "CFO",
+    "ticker": "N/A",
+    "company": "LAGO Evergreen Credit",
+    "action": "BUY",
+    "shares": 1971.0,
+    "price_per_share": 25.37,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": 50004.270000000004,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/2043759/000119312526307009/0001193125-26-307009-index.htm"
+  },
+  {
+    "id": "form4:0000950103-26-010761:0",
+    "source": "form4",
+    "filed_at": "2026-07-17T09:42:02-04:00",
+    "person": "Uang Du-Tsuen",
+    "person_role": "Chief Administration Officer",
+    "ticker": "ASX",
+    "company": "ASE Technology Holding Co., Ltd.",
+    "action": "SELL",
+    "shares": 3000.0,
+    "price_per_share": 688.0,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": 2064000.0,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/2118034/000095010326010761/0000950103-26-010761-index.htm"
   }
 ]

@@ -22526,5 +22526,21 @@
     "value_high": null,
     "value_exact": null,
     "raw_url": "https://www.sec.gov/Archives/edgar/data/1785802/000178580226000002/0001785802-26-000002-index.htm"
+  },
+  {
+    "id": "form4:0001437749-26-024055:0",
+    "source": "form4",
+    "filed_at": "2026-07-22T10:22:45-04:00",
+    "person": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+    "person_role": "10% owner",
+    "ticker": "RCG",
+    "company": "RENN Fund, Inc.",
+    "action": "BUY",
+    "shares": 756.0,
+    "price_per_share": 3.07,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": 2320.92,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/1056823/000143774926024055/0001437749-26-024055-index.htm"
   }
 ]

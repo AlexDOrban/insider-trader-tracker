@@ -22830,5 +22830,37 @@
     "value_high": null,
     "value_exact": 67055.52,
     "raw_url": "https://www.sec.gov/Archives/edgar/data/1627893/000162789326000012/0001627893-26-000012-index.htm"
+  },
+  {
+    "id": "form4:0002134641-26-000007:0",
+    "source": "form4",
+    "filed_at": "2026-07-23T10:25:46-04:00",
+    "person": "Lomashuk Konstantin",
+    "person_role": "10% owner",
+    "ticker": "FRMM",
+    "company": "FORUM MARKETS Inc",
+    "action": "SELL",
+    "shares": 250000.0,
+    "price_per_share": 6.0,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": 1500000.0,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/2134641/000213464126000007/0002134641-26-000007-index.htm"
+  },
+  {
+    "id": "form4:0001628280-26-049313:0",
+    "source": "form4",
+    "filed_at": "2026-07-23T10:23:30-04:00",
+    "person": "Cook Cody",
+    "person_role": "President",
+    "ticker": "ERIE",
+    "company": "ERIE INDEMNITY CO",
+    "action": "BUY",
+    "shares": 8.699,
+    "price_per_share": 215.82,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": 1877.41818,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/2049872/000162828026049313/0001628280-26-049313-index.htm"
   }
 ]

@@ -23486,5 +23486,37 @@
     "value_high": null,
     "value_exact": null,
     "raw_url": "https://www.sec.gov/Archives/edgar/data/1706852/000114036126029632/0001140361-26-029632-index.htm"
+  },
+  {
+    "id": "form4:0000006955-26-000040:0",
+    "source": "form4",
+    "filed_at": "2026-07-27T11:17:50-04:00",
+    "person": "Ferland E James Jr",
+    "person_role": "Director",
+    "ticker": "EPAC",
+    "company": "ENERPAC TOOL GROUP CORP",
+    "action": "OPTION_BUY",
+    "shares": 2930.0,
+    "price_per_share": 26.95,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": 78963.5,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/1404512/000000695526000040/0000006955-26-000040-index.htm"
+  },
+  {
+    "id": "form4:0001193125-26-317488:0",
+    "source": "form4",
+    "filed_at": "2026-07-27T11:09:13-04:00",
+    "person": "Lavie Zmira",
+    "person_role": "Director",
+    "ticker": "VICR",
+    "company": "VICOR CORP",
+    "action": "OPTION_BUY",
+    "shares": 1216.0,
+    "price_per_share": 32.89,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": 39994.24,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/1939016/000119312526317488/0001193125-26-317488-index.htm"
   }
 ]

@@ -64,54 +64,6 @@
     "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034300.pdf"
   },
   {
-    "id": "house:20034274:0",
-    "source": "house",
-    "filed_at": "2026-04-30T00:00:00+00:00",
-    "person": "Jared Moskowitz",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034274.pdf"
-  },
-  {
-    "id": "house:20019182:0",
-    "source": "house",
-    "filed_at": "2026-04-30T00:00:00+00:00",
-    "person": "Lloyd K. Smucker",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20019182.pdf"
-  },
-  {
-    "id": "house:20034414:0",
-    "source": "house",
-    "filed_at": "2026-04-30T00:00:00+00:00",
-    "person": "Lori Trahan",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034414.pdf"
-  },
-  {
     "id": "house:20034462:0",
     "source": "house",
     "filed_at": "2026-05-04T00:00:00+00:00",
@@ -24654,5 +24606,21 @@
     "value_high": null,
     "value_exact": null,
     "raw_url": "https://www.sec.gov/Archives/edgar/data/2027922/000119312526324324/0001193125-26-324324-index.htm"
+  },
+  {
+    "id": "form4:0001193125-26-325161:0",
+    "source": "form4",
+    "filed_at": "2026-07-30T10:36:23-04:00",
+    "person": "Shook James",
+    "person_role": "Director",
+    "ticker": "NWFL",
+    "company": "NORWOOD FINANCIAL CORP",
+    "action": "BUY",
+    "shares": 3100.0,
+    "price_per_share": 34.55,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": 107104.99999999999,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/2090760/000119312526325161/0001193125-26-325161-index.htm"
   }
 ]

@@ -496,38 +496,6 @@
     "raw_url": "https://www.sec.gov/Archives/edgar/data/1185611/000118561126000002/0001185611-26-000002-index.htm"
   },
   {
-    "id": "house:20034499:0",
-    "source": "house",
-    "filed_at": "2026-05-07T00:00:00+00:00",
-    "person": "Greg Stanton",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034499.pdf"
-  },
-  {
-    "id": "house:20034489:0",
-    "source": "house",
-    "filed_at": "2026-05-07T00:00:00+00:00",
-    "person": "David J. Taylor",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034489.pdf"
-  },
-  {
     "id": "form4:0000789570-26-000050:0",
     "source": "form4",
     "filed_at": "2026-05-08T18:51:31-04:00",
@@ -26238,5 +26206,37 @@
     "value_high": null,
     "value_exact": null,
     "raw_url": "https://www.sec.gov/Archives/edgar/data/1788796/000119312526335756/0001193125-26-335756-index.htm"
+  },
+  {
+    "id": "form4:0001104659-26-091754:0",
+    "source": "form4",
+    "filed_at": "2026-08-06T10:29:53-04:00",
+    "person": "McNeal Gregory S.",
+    "person_role": "Director",
+    "ticker": "EXYN",
+    "company": "Exyn Technologies, Inc.",
+    "action": "BUY",
+    "shares": 23200.0,
+    "price_per_share": null,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": null,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/2110107/000110465926091754/0001104659-26-091754-index.htm"
+  },
+  {
+    "id": "form4:0001437749-26-026094:0",
+    "source": "form4",
+    "filed_at": "2026-08-06T10:28:43-04:00",
+    "person": "Wenick Mark J",
+    "person_role": "SEVP/Chief Wealth Mgt Officer",
+    "ticker": "FMNB",
+    "company": "FARMERS NATIONAL BANC CORP /OH/",
+    "action": "SELL",
+    "shares": 5000.0,
+    "price_per_share": 15.97,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": 79850.0,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/1468512/000143774926026094/0001437749-26-026094-index.htm"
   }
 ]

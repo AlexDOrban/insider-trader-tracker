@@ -26062,5 +26062,53 @@
     "value_high": null,
     "value_exact": 395183.88,
     "raw_url": "https://www.sec.gov/Archives/edgar/data/1195655/000119312526338763/0001193125-26-338763-index.htm"
+  },
+  {
+    "id": "form4:0001194348-26-000004:0",
+    "source": "form4",
+    "filed_at": "2026-08-07T09:39:39-04:00",
+    "person": "NIELSEN RAYMOND A",
+    "person_role": "Director",
+    "ticker": "DCOM",
+    "company": "Dime Commercial Bancshares, Inc. /NY/",
+    "action": "SELL",
+    "shares": 1800.0,
+    "price_per_share": 41.7293,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": 75112.74,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/1194348/000119434826000004/0001194348-26-000004-index.htm"
+  },
+  {
+    "id": "form4:0001045450-26-000045:0",
+    "source": "form4",
+    "filed_at": "2026-08-07T09:34:26-04:00",
+    "person": "Sterneck Robin Peppe",
+    "person_role": "Director",
+    "ticker": "EPR",
+    "company": "EPR PROPERTIES",
+    "action": "SELL",
+    "shares": 3403.0,
+    "price_per_share": 61.5375,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": 209412.11250000002,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/1586823/000104545026000045/0001045450-26-000045-index.htm"
+  },
+  {
+    "id": "form4:0001171843-26-005348:0",
+    "source": "form4",
+    "filed_at": "2026-08-07T09:29:13-04:00",
+    "person": "Gendel Mitchell",
+    "person_role": "Global General Counsel",
+    "ticker": "TLRY",
+    "company": "Tilray Brands, Inc.",
+    "action": "BUY",
+    "shares": 2500.0,
+    "price_per_share": 4.43,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": 11075.0,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/1731348/000117184326005348/0001171843-26-005348-index.htm"
   }
 ]

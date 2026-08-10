@@ -1,7 +1,7 @@
 {
   "form4": {
     "alerted": false,
-    "consecutive_failures": 1
+    "consecutive_failures": 0
   },
   "house": {
     "alerted": false,
@@ -9,6 +9,6 @@
   },
   "senate": {
     "alerted": true,
-    "consecutive_failures": 135
+    "consecutive_failures": 136
   }
 }

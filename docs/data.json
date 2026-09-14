@@ -1,37 +1,5 @@
 [
   {
-    "id": "form4:0001493152-26-028646:0",
-    "source": "form4",
-    "filed_at": "2026-06-15T13:21:02-04:00",
-    "person": "Lekstrom Morgan Lee",
-    "person_role": "Director",
-    "ticker": "STEX",
-    "company": "Streamex Corp.",
-    "action": "BUY",
-    "shares": 25000.0,
-    "price_per_share": 1.01,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": 25250.0,
-    "raw_url": "https://www.sec.gov/Archives/edgar/data/2072014/000149315226028646/0001493152-26-028646-index.htm"
-  },
-  {
-    "id": "form4:0001200512-26-000014:0",
-    "source": "form4",
-    "filed_at": "2026-06-15T13:10:28-04:00",
-    "person": "CHERRY THOMAS F",
-    "person_role": "CEO",
-    "ticker": "CFFI",
-    "company": "C & F FINANCIAL CORP",
-    "action": "SELL",
-    "shares": 30.0,
-    "price_per_share": 78.5,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": 2355.0,
-    "raw_url": "https://www.sec.gov/Archives/edgar/data/1200512/000120051226000014/0001200512-26-000014-index.htm"
-  },
-  {
     "id": "form4:0001193125-26-271474:0",
     "source": "form4",
     "filed_at": "2026-06-15T19:40:59-04:00",

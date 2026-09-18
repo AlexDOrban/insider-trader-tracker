@@ -25518,5 +25518,37 @@
     "value_high": null,
     "value_exact": 349.35,
     "raw_url": "https://www.sec.gov/Archives/edgar/data/1811074/000143774926030719/0001437749-26-030719-index.htm"
+  },
+  {
+    "id": "house:20035450:0",
+    "source": "house",
+    "filed_at": "2026-09-17T00:00:00+00:00",
+    "person": "Scott Scott Franklin",
+    "person_role": "Representative",
+    "ticker": null,
+    "company": "",
+    "action": "BUY",
+    "shares": null,
+    "price_per_share": null,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": null,
+    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035450.pdf"
+  },
+  {
+    "id": "house:20035471:0",
+    "source": "house",
+    "filed_at": "2026-09-17T00:00:00+00:00",
+    "person": "David J. Taylor",
+    "person_role": "Representative",
+    "ticker": null,
+    "company": "",
+    "action": "BUY",
+    "shares": null,
+    "price_per_share": null,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": null,
+    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035471.pdf"
   }
 ]

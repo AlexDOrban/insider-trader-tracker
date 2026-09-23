@@ -1,21 +1,5 @@
 [
   {
-    "id": "form4:0001214659-26-007677:0",
-    "source": "form4",
-    "filed_at": "2026-06-24T11:11:33-04:00",
-    "person": "Krop Julie",
-    "person_role": "Director",
-    "ticker": "AQST",
-    "company": "Aquestive Therapeutics, Inc.",
-    "action": "OPTION_BUY",
-    "shares": 25000.0,
-    "price_per_share": 0.7132,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": 17830.0,
-    "raw_url": "https://www.sec.gov/Archives/edgar/data/1643127/000121465926007677/0001214659-26-007677-index.htm"
-  },
-  {
     "id": "form4:0001780030-26-000004:0",
     "source": "form4",
     "filed_at": "2026-06-24T18:58:08-04:00",
@@ -334,22 +318,6 @@
     "value_high": null,
     "value_exact": null,
     "raw_url": "https://www.sec.gov/Archives/edgar/data/1620463/000116442626000003/0001164426-26-000003-index.htm"
-  },
-  {
-    "id": "house:20034851:0",
-    "source": "house",
-    "filed_at": "2026-06-24T00:00:00+00:00",
-    "person": "Dwight Evans",
-    "person_role": "Representative",
-    "ticker": null,
-    "company": "",
-    "action": "BUY",
-    "shares": null,
-    "price_per_share": null,
-    "value_low": null,
-    "value_high": null,
-    "value_exact": null,
-    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034851.pdf"
   },
   {
     "id": "form4:0001104659-26-077619:0",
@@ -25406,5 +25374,53 @@
     "value_high": null,
     "value_exact": 128390.2468,
     "raw_url": "https://www.sec.gov/Archives/edgar/data/1859448/000185944826000015/0001859448-26-000015-index.htm"
+  },
+  {
+    "id": "form4:0002146263-26-000005:0",
+    "source": "form4",
+    "filed_at": "2026-09-23T13:11:07-04:00",
+    "person": "Dorsett Jason Christopher",
+    "person_role": "10% owner",
+    "ticker": "RTB",
+    "company": "RTB Digital, Inc.",
+    "action": "BUY",
+    "shares": 11000.0,
+    "price_per_share": 8.32,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": 91520.0,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/2146263/000214626326000005/0002146263-26-000005-index.htm"
+  },
+  {
+    "id": "form4:0001213900-26-102515:0",
+    "source": "form4",
+    "filed_at": "2026-09-23T13:01:58-04:00",
+    "person": "ITSHAYEK ASSAF",
+    "person_role": "Director",
+    "ticker": "KMDA",
+    "company": "KAMADA LTD",
+    "action": "BUY",
+    "shares": 16000.0,
+    "price_per_share": null,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": null,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/1567529/000121390026102515/0001213900-26-102515-index.htm"
+  },
+  {
+    "id": "form4:0001213900-26-102513:0",
+    "source": "form4",
+    "filed_at": "2026-09-23T12:58:24-04:00",
+    "person": "Dekel Benjamin",
+    "person_role": "Director",
+    "ticker": "KMDA",
+    "company": "KAMADA LTD",
+    "action": "BUY",
+    "shares": 16000.0,
+    "price_per_share": null,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": null,
+    "raw_url": "https://www.sec.gov/Archives/edgar/data/2077142/000121390026102513/0001213900-26-102513-index.htm"
   }
 ]

@@ -24606,5 +24606,37 @@
     "value_high": null,
     "value_exact": 463500.0,
     "raw_url": "https://www.sec.gov/Archives/edgar/data/1933928/000162828026066941/0001628280-26-066941-index.htm"
+  },
+  {
+    "id": "house:20035669:0",
+    "source": "house",
+    "filed_at": "2026-10-22T00:00:00+00:00",
+    "person": "Cleo Fields",
+    "person_role": "Representative",
+    "ticker": null,
+    "company": "",
+    "action": "BUY",
+    "shares": null,
+    "price_per_share": null,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": null,
+    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035669.pdf"
+  },
+  {
+    "id": "house:20035700:0",
+    "source": "house",
+    "filed_at": "2026-10-22T00:00:00+00:00",
+    "person": "Darrell E. Issa",
+    "person_role": "Representative",
+    "ticker": null,
+    "company": "",
+    "action": "BUY",
+    "shares": null,
+    "price_per_share": null,
+    "value_low": null,
+    "value_high": null,
+    "value_exact": null,
+    "raw_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035700.pdf"
   }
 ]

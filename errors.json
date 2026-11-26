@@ -9,6 +9,6 @@
   },
   "senate": {
     "alerted": true,
-    "consecutive_failures": 289
+    "consecutive_failures": 290
   }
 }
